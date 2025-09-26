@@ -1,11 +1,19 @@
 # MCP Bookmark Server
 
-A Model Context Protocol (MCP) server that enables AI assistants to save and search bookmarks. Store URLs with metadata and perform intelligent searches across your bookmark collection.
+A Model Context Protocol (MCP) server that enables AI assistants to save and search bookmarks using OpenAI's RAG capabilities. Store URLs with metadata and perform intelligent searches across your bookmark collection.
 
 ## Features
 
 - **Save Bookmarks**: Store URLs with titles and descriptions
-- **Smart Search**: Search across bookmark titles and descriptions
+- **Smart Search**: Search across bookmark titles and descriptions using semantic search
+- **AI-Powered**: Integration with OpenAI for intelligent bookmark management and categorization
+- **Multi-Platform**: Easy integration across multiple MCP-compatible platforms
+
+## Installation
+
+```bash
+pip install mcp-bookmark-server
+```
 
 ## Configuration for MCP Hosts
 
@@ -166,20 +174,25 @@ Once configured with your MCP host, you can use natural language:
 - **"Find bookmarks about machine learning"**
 - **"Save https://github.com/microsoft/vscode as a development tool bookmark"**
 
+## Requirements
+
+- Python 3.11+
+- OpenAI API key
+- `uvx` package manager installed
+- Internet connection for GitHub repository access
+
 ## Environment Variables
 
 - `OPENAI_API_KEY`: Required for AI-powered categorization and search enhancement
-
-## Installation Requirements
-
-- `uvx` package manager installed
-- OpenAI API key for enhanced functionality
-- Internet connection for GitHub repository access
 
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/pree-dew/mcp-bookmark/issues)
 - **MCP Documentation**: [Model Context Protocol](https://modelcontextprotocol.io/)
+
+## License
+
+MIT License
 
 ---
 
