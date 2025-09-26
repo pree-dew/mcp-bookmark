@@ -1,6 +1,6 @@
 # MCP Bookmark Server
 
-mcp-name: io.github.pree-dew/mcp-bookmark
+<!-- mcp-name: io.github.pree-dew/mcp-bookmark -->
 
 A Model Context Protocol (MCP) server that enables AI assistants to save and search bookmarks using OpenAI's RAG capabilities. Store URLs with metadata and perform intelligent searches across your bookmark collection.
 
